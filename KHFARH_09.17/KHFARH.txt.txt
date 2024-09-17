@@ -1,0 +1,9 @@
+LOCAL:
+1. git status - állapot ellenőrzés
+2. git add "NEPTUNKOD_09.17" - feltöltés vagy, ha több fájl van benne,
+3. git add . - feltölti az összes fájlt, ami a NEPTUNKOD_09.17-ben van
+4. git commit -m "1 fájlt feltöltve" - fel commitoltuk (feltöltöttük) a stage-re
+5. git log - 
+6. git shotlog
+
+git push - a stage-ben lévő anyagot feltöltjük a felhőbe
