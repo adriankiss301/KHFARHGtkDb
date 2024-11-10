@@ -1,0 +1,48 @@
+a,
+ALTER TABLE Auto RENAME TO Jarmu;
+
+ALTER TABKE Jarmu RENAME TO Auto;
+
+b,
+ALTER TABLE Tulajdonos RENAME COLUMN Tulaj TO Tul;
+
+ALTER TABLE Tulajdonos RENAME COLUMN Tul To Tulaj;
+
+c,
+ALTER TABLE Auto ADD COLUMN Koros INT;
+
+d,
+ALTER TABLE Auto DROP COLUMN Koros;
+
+e,
+ALTER TABLE Auto ADD COLUMN Koros INT;
+
+f,
+ALTER TABLE Auto DROP COLUMN Koros;
+
+g,
+ALTER TABLE Auto
+ADD Koros VARCHAR(200) AFTER Szin;
+
+h,
+ALTER TABLE Auto DROP COLUMN Koros;
+
+TULAJDONOS TÁBLA
+a, 
+ALTER TABLE Tulajdonos
+MODIFY COLUMN Telefon VARCHAR(15);
+
+ALTER TABLE Tulajdonos
+MODIFY COLUMN Telefon CHAR(15);
+
+b,
+ALTER TABLE Tulajdonos
+ADD CONSTRAINT unique_tkod UNIQUE (Tkod);
+
+c,
+ALTER TABLE Tulajdonos
+DROP CONSTRAINT unique_tkod;
+
+
+
+
